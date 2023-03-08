@@ -5,7 +5,7 @@ const d = document;
 const $cardTemplate = d.getElementById('card-template');
 const $cardsContainer = d.getElementById('cards-container');
 
-if (!'content' in document.createElement('template')) {
+if ('content' in document.createElement('template')) {
   carsList.forEach((carInfo) => {
     const clone = $cardTemplate.content.cloneNode(true);
     const $img = clone.getElementById('car-img');
