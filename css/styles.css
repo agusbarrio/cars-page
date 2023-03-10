@@ -1,0 +1,44 @@
+:root {
+  --first: rgb(34, 40, 49);
+  --second: rgb(57, 62, 70);
+  --third: rgb(0, 146, 202);
+  --fourth: rgb(238, 238, 238);
+  --third-hover: rgb(0, 106, 162);
+}
+
+body {
+  background-color: var(--first);
+}
+
+.header {
+  background-color: var(--third);
+  color: var(--fourth);
+}
+
+.header-decorator {
+  border-color: var(--third) !important;
+}
+
+.custom-card {
+  background-color: var(--fourth) !important;
+  color: var(--second) !important;
+  border-color: var(--first);
+}
+
+.custom-button {
+  font-weight: bold !important;
+  background-color: var(--third) !important;
+  color: var(--fourth) !important;
+}
+
+.custom-button:hover,
+.custom-button:focus-visible,
+.custom-button:active {
+  background-color: var(--third-hover) !important;
+  border-color: var(--third-hover) !important;
+  color: var(--fourth) !important;
+}
+
+.custom-figure-caption {
+  color: var(--fourth) !important;
+}
