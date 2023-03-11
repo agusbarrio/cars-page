@@ -19,6 +19,10 @@ body {
   border-color: var(--third) !important;
 }
 
+.car-title {
+  color: var(--fourth);
+}
+
 .custom-card {
   background-color: var(--fourth) !important;
   color: var(--second) !important;
